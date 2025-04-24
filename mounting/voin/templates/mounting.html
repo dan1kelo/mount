@@ -1,0 +1,15 @@
+<div class="relative bg-gradient-to-br {{ gradient_classes }} rounded-lg shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+    <div class="absolute inset-px rounded-lg bg-white {{ rounded_classes }}"></div>
+    <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] {{ rounded_inner_classes }}">
+        <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
+            <p class="mt-2 text-lg font-medium tracking-tight text-black text-center">{{ level }}</p>
+            <p class="mt-2 max-w-lg text-sm text-black text-center">{{ mountain_name }}</p><br>
+            <p class="mt-2 max-w-lg text-sm text-black text-center">{{ description }}</p>
+        </div>
+        <div class="relative min-h-[30rem] w-full grow max-lg:mx-auto max-lg:max-w-sm">
+            <div class="absolute inset-x-10 top-5 bottom-0 overflow-hidden border-gray-700 bg-gray-900 shadow-2xl rounded-lg">
+                <img class="size-full object-cover object-top rounded-lg transition-transform duration-500 hover:scale-105" src="{{ image_url }}" alt="{{ mountain_name }}">
+            </div>
+        </div>
+    </div>
+</div>

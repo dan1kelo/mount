@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="opacity-0 animate-fadeIn duration-1000">
+    <h2 class="text-4xl font-bold mb-4 text-center text-black transition-colors">Добро пожаловать!</h2>
+    <p class="text-lg text-center text-black transition-colors">Исследуйте мир горных вершин и туров</p>
+</section>
+
+<div class="mx-auto max-w-7xl px-6 lg:px-8 mt-12">
+    <p class="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+        Какие есть горы для покорения?
+    </p>
+    <div class="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
+        <!-- Первый блок -->
+        <div class="relative lg:row-span-2 bg-gradient-to-br from-green-500 via-green-400 to-green-300 rounded-lg shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+            <div class="absolute inset-px rounded-lg bg-white lg:rounded-l-[2rem]"></div>
+            <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
+                <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
+                    <p class="mt-2 text-lg font-medium tracking-tight text-black text-center">Первые шаги</p>
+                    <p class="mt-2 max-w-lg text-sm text-black text-center">Гора Хомяк</p><br>
+                    <p class="mt-2 max-w-lg text-sm text-black text-center">Высота: 1 542 метра
+                        Продолжительность подъема: 3-4 часа
+                        Расположение: Надворнянский район, Ивано-Франковская область</p>
+                </div>
+                <div class="relative min-h-[30rem] w-full grow max-lg:mx-auto max-lg:max-w-sm">
+                    <div class="absolute inset-x-10 top-5 bottom-0 overflow-hidden border-gray-700 bg-gray-900 shadow-2xl rounded-lg">
+                        <img class="size-full object-cover object-top rounded-lg transition-transform duration-500 hover:scale-105" src="https://karpatium.com.ua/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb1VCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--863f47d30042921f7a64ec32c492f7beb34a06a5/%D0%B3%D0%BE%D1%80%D0%B0-%D1%85%D0%BE%D0%BC%D1%8F%D0%BA%20(1).jpg" alt="Гора Хомяк">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Второй блок -->
+        <div class="relative max-lg:row-start-1 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-300 rounded-lg shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+            <div class="absolute inset-px rounded-lg bg-white max-lg:rounded-t-[2rem]"></div>
+            <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
+                <div class="px-8 pt-8 sm:px-10 sm:pt-10">
+                    <p class="mt-2 text-lg font-medium tracking-tight text-black text-center">Средний уровень</p>
+                    <p class="mt-2 max-w-lg text-sm text-black text-center">Тофан-ди-Медзев, Италия</p><br>
+                    <p class="mt-2 max-w-lg text-sm text-black text-center">Высота: 3 663 метра
+                        Продолжительность подъема: 5-6 часов
+                        Расположение: Трентино, Италия</p>
+                </div>
+                <div class="flex flex-1 items-center justify-center px-8 max-lg:pt-10 max-lg:pb-12 sm:px-10 lg:pb-2">
+                    <img class="w-full max-lg:max-w-xs rounded-lg shadow-lg transition-transform duration-500 hover:scale-105" src="https://alp.com.ua/content/uploads/images/luckyfox_travel_dolomites_00006.jpeg" alt="Тофан-ди-Медзев">
+                </div>
+            </div>
+        </div>
+
+        <!-- Третий блок -->
+        <div class="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2 bg-gradient-to-br from-red-500 via-red-400 to-red-300 rounded-lg shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+            <div class="absolute inset-px rounded-lg bg-white"></div>
+            <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
+                <div class="px-8 pt-8 sm:px-10 sm:pt-10">
+                    <p class="mt-2 text-lg font-medium tracking-tight text-black text-center">Высший уровень</p><br>
+                    <p class="mt-2 max-w-lg text-sm text-black text-center">Дюфур, Швейцария и Италия</p><br>
+                    <p class="mt-2 max-w-lg text-sm text-black text-center">Высота: 4 634 метра
+                        Продолжительность подъема: 2-3 дня
+                        Расположение: Альпы, на границе Швейцарии и Италии</p>
+                </div>
+                <div class="relative flex flex-1 items-center max-lg:py-6 lg:pb-2">
+                    <img class="h-[min(280px,70cqw)] object-cover rounded-lg shadow-lg transition-transform duration-300 hover:scale-5" src="https://alp.com.ua/content/uploads/images/5506_800x600_doufur.jpg" alt="Дюфур">
+                </div>
+            </div>
+        </div>
+
+        <!-- Четвертый блок -->
+        <div class="relative lg:row-span-2 bg-gradient-to-br from-yellow-500 via-yellow-400 to-yellow-300 rounded-lg shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+            <div class="absolute inset-px rounded-lg bg-white max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
+            <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
+                <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
+                    <p class="mt-2 text-lg font-medium tracking-tight text-black text-center">Мастер режим</p><br>
+                    <p class="mt-2 max-w-lg text-sm text-black text-center">Гора К2 (Чогори)</p><br>
+                    <p class="mt-2 max-w-lg text-sm text-black text-center">Монтгомери побачив дві вершини Машербрум (7 821 м) та Чогорі (8 611 м), відзначив їх на карті як К1 та К2
+                        Висота: 8611 м
+                        Розташування: Кашмір (частина, яка контролюється Пакистаном)</p>
+                </div>
+                <div class="relative min-h-[30rem] w-full grow max-lg:mx-auto max-lg:max-w-sm">
+                    <div class="absolute inset-x-10 top-5 bottom-0 overflow-hidden border-gray-700 bg-gray-900 shadow-2xl rounded-lg">
+                        <img class="size-full object-cover object-top rounded-lg transition-transform duration-500 hover:scale-105" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/K2-big.jpg/500px-K2-big.jpg" alt="Гора К2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

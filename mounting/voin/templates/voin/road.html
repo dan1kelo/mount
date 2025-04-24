@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% extends "base.html" %}
+
+{% block content %}
+<section class="py-12 px-4 sm:px-6 lg:px-8">
+  <div class="text-center mb-10">
+    <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Снаряжение</h2>
+    <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">
+      Снаряжение, которое поможет вам покорить горные вершины и обеспечит комфорт в походах.
+    </p> 
+  </div>
+  <ul role="list" class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+    <!-- Team Member 1 -->
+    <li class="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition-shadow p-6 text-center">
+      <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
+        <img src="https://pohod-v-gory.com/wp-content/uploads/2022/09/9-65.jpg" alt="походные палки" class="w-24 h-24 rounded-full object-cover mx-auto mb-4 transition-transform duration-500 transform hover:scale-110">
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Походные палки</h3>
+        <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">Очень важный атрибут для равновесия и безопасности в сложных условиях.</p>
+        <p class="text-gray-600 dark:text-gray-300 mt-2">Трекинговые палки регулируются по высоте, обеспечивая комфорт в разных условиях.</p>
+      </div>
+    </li>
+    <!-- Team Member 2 -->
+    <li class="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition-shadow p-6 text-center">
+      <img src="https://pohod-v-gory.com/wp-content/uploads/2022/09/0-72.jpg" alt="туристический рюкзак" class="w-24 h-24 rounded-full object-cover mx-auto mb-4 transition-transform duration-500 transform hover:scale-110">
+      <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Туристический рюкзак</h3>
+      <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">Основной элемент походного снаряжения, который должен быть удобным и вместительным.</p>
+      <p class="text-gray-600 dark:text-gray-300 mt-2">Выбор рюкзака зависит от продолжительности похода и ваших предпочтений по комфорту.</p>
+    </li>
+    <!-- Team Member 3 -->
+    <li class="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition-shadow p-6 text-center">
+      <img src="https://pohod-v-gory.com/wp-content/uploads/2022/09/8.png" alt="обувь для похода" class="w-24 h-24 rounded-full object-cover mx-auto mb-4 transition-transform duration-500 transform hover:scale-110">
+      <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Обувь для похода</h3>
+      <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">Надежная обувь — залог комфорта и безопасности на сложном рельефе гор.</p>
+      <p class="text-gray-600 dark:text-gray-300 mt-2">Рекомендуется использовать трекинговые ботинки с мембраной для защиты от воды и влаги.</p>
+    </li>
+    <!-- Team Member 4 -->
+    <li class="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition-shadow p-6 text-center">
+      <img src="https://pohod-v-gory.com/wp-content/uploads/2022/09/10.png" alt="куртка и накидка от дождя" class="w-24 h-24 rounded-full object-cover mx-auto mb-4 transition-transform duration-500 transform hover:scale-110">
+      <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Куртка и накидка от дождя</h3>
+      <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">Необходимая защита от дождя и ветра в условиях гор.</p>
+      <p class="text-gray-600 dark:text-gray-300 mt-2">Куртки с мембраной обеспечат вам сухость, а накидка защитит рюкзак от влаги.</p>
+    </li>
+    <!-- Team Member 5 -->
+    <li class="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition-shadow p-6 text-center">
+      <img src="https://pohod-v-gory.com/wp-content/uploads/2022/09/2-91.jpg" alt="палатка" class="w-24 h-24 rounded-full object-cover mx-auto mb-4 transition-transform duration-500 transform hover:scale-110">
+      <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Палатка</h3>
+      <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">Ваша крепость в горах, обеспечивающая укрытие от непогоды.</p>
+      <p class="text-gray-600 dark:text-gray-300 mt-2">Двухслойные палатки с водонепроницаемыми тентами обеспечат комфорт и защиту.</p>
+    </li>
+    <!-- Team Member 6 -->
+    <li class="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition-shadow p-6 text-center">
+      <img src="https://pohod-v-gory.com/wp-content/uploads/2022/09/14-53.jpg" alt="солнцезащитные очки" class="w-24 h-24 rounded-full object-cover mx-auto mb-4 transition-transform duration-500 transform hover:scale-110">
+      <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Солнцезащитные очки</h3>
+      <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">Защищают от ультрафиолетового излучения в горах.</p>
+      <p class="text-gray-600 dark:text-gray-300 mt-2">Особенно важны на высоте, где ультрафиолетовое излучение усиливается.</p>
+    </li>
+  </ul>
+</section>
+{% endblock %}
